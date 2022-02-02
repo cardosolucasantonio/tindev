@@ -20,7 +20,7 @@ io.on('connection', socket => {
     connectedUsers[user] = socket.id;
 });
 
-mongoose.connect('mongodb+srv://root:root@cluster0.wa0aa.mongodb.net/omnistack8?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://...', { //Alterar pela URI do seu banco de dados.
     useNewUrlParser: true
 });
 
